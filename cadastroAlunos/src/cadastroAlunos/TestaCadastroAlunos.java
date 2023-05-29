@@ -16,10 +16,7 @@ public class TestaCadastroAlunos {
 			Religiao religiao = new Religiao();
 			EstadoCivil estCivil = new EstadoCivil();
 			Cidade cidade = new Cidade();
-			//atribuindo por paramentro os objetos religiao, estCivil e cidade ao objeto aluno
-			aluno.setReligiao(religiao);
-			aluno.setEstadoCivil(estCivil);
-			aluno.setCidade(cidade);
+			
 			//inicio do cadastro
 			System.out.println("Digite o nome do aluno");
 			aluno.setNome(leia.next());
@@ -27,11 +24,13 @@ public class TestaCadastroAlunos {
 			aluno.setDataNascimento(leia.next());
 			System.out.println("Digite a religiao");
 			religiao.setDescricao(leia.next());
-			aluno.getReligiao().setDescricao("teste");
+			aluno.setReligiao(religiao);//atribuindo por paramentro o objeto religiao ao objeto aluno
 			System.out.println("Digite o estado civil");
 			estCivil.setDescricao(leia.next());
+			aluno.setEstadoCivil(estCivil);
 			System.out.println("Digite a cidade");
 			cidade.setDescricao(leia.next());
+			aluno.setCidade(cidade);
 			System.out.println("Digite o CEP");
 			cidade.setCep(leia.next());
 			lista.add(aluno);		
