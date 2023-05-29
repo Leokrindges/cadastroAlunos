@@ -33,6 +33,7 @@ public class TestaCadastroAlunos {
 			aluno.setCidade(cidade);
 			System.out.println("Digite o CEP");
 			cidade.setCep(leia.next());
+			aluno.setCidade(cidade);
 			lista.add(aluno);		
 			System.out.println("DESEJA CONTINUAR? S/N");
 			controle = leia.next().charAt(0);
