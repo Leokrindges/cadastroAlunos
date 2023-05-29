@@ -28,7 +28,7 @@ public class Cidade {
 	}
 	@Override
 	public String toString() {
-		return "Cidade = " + descricao + "\nCEP = " + cep;
+		return  descricao + cep;
 	}
 	
 }

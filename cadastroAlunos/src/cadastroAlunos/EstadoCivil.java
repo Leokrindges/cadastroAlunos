@@ -23,7 +23,7 @@ public class EstadoCivil {
 	}
 	@Override
 	public String toString() {
-		return "Estado Civil = " + descricao;
+		return descricao;
 	}
 	
 }
