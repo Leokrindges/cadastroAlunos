@@ -3,12 +3,10 @@ package cadastroAlunos;
 public class Religiao{
 
 	String descricao;
-	
+	//construtores
 	public Religiao() {
 		
-	}
-	
-	//construtor
+	}	
 	public Religiao(String descricao) {
 		super();
 		this.setDescricao(descricao);
@@ -22,6 +20,7 @@ public class Religiao{
 		this.descricao = descricao;
 	}
 	@Override
+	//sobreescrita do metoto toString
 	public String toString() {
 		return descricao;
 	}
