@@ -1,6 +1,6 @@
 package cadastroAlunos;
 
-public class Religiao extends Aluno{
+public class Religiao{
 
 	String descricao;
 	
@@ -23,7 +23,7 @@ public class Religiao extends Aluno{
 	}
 	@Override
 	public String toString() {
-		return "Religiao = " + descricao;
+		return descricao;
 	}
 	
 }

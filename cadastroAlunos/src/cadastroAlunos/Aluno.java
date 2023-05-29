@@ -53,7 +53,9 @@ public class Aluno {
 	}
 	@Override
 	public String toString() {
-		return "Nome = " + nome + "\nData Nascimento = " + dataNascimento;
+		return "Aluno = " + nome + "\nData Nascimento = " + dataNascimento + "\nReligiao = " + religiao
+				+ "\nEstado Civil = " + estadoCivil + "\nCidade = " + cidade;
 	}
+	
 	
 }
